@@ -83,6 +83,7 @@ strong, em, .comment-reply-title, .tags, .widget_calendar tbody td{
 	margin: 24px;
 }
 
-#comment{
+#comment, #author, #email, #url{
 	color: black !important;
 }
+
