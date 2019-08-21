@@ -1,0 +1,88 @@
+/*
+Theme Name: Blog de Solange Harmonie PICARD
+Description: Thème enfant à partir de metro-creativex
+Author: Solange Harmonie PICARD
+Author URI: https://solangeharmoniepicard.fr
+Template: metro-creativex
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+
+body{
+  font-family: 'Fira Mono', monospace !important;
+  background: #FFF !important;
+}
+
+code{
+	background-color: #21252B;
+	color: white;
+	padding: 4px !important;
+}
+
+.wp-block-code{
+	background-color: #21252B;
+	padding: 16px !important;
+}
+
+.bg-stuff{
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+
+.display-name, .ab-label, .read.bg-code >p,.read.bg-code >span{color:white !important;}
+
+strong, em, .comment-reply-title, .tags, .widget_calendar tbody td{
+	color:black !important;
+}
+
+.widget_calendar a {
+	background-color: white !important;
+}
+
+#respond #submit{
+	width: 24rem !important;
+}
+
+.rs-icone{
+	padding-left:4px; padding-right:4px;
+}
+
+#searchform, .pages{display:none !important;}
+
+#content article .img{
+	border-radius: 8px 8px 0 0 !important;
+}
+
+.post_content{
+	margin-left:32px;
+	width: 80% !important;
+}
+
+.post_icon{display:none;}
+
+.post blockquote{
+	background-color:white !important;
+}
+
+#content article {
+	height: 380px !important;
+}
+
+.navrespgradient{
+	display:none !important;
+}
+
+.wp-block-image{
+	text-align:center !important;
+}
+
+.wp-block-image>img{
+	width: 80%;
+	margin: 24px;
+}
+
+#comment{
+	color: black !important;
+}
