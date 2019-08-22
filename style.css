@@ -7,6 +7,8 @@ Template: metro-creativex
 Version: 1.0
 */
 
+/* Custom metro-creativex style */
+
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
 
 body{
@@ -20,15 +22,19 @@ code{
 	padding: 4px !important;
 }
 
+#logo {
+  width: 80% !important;
+}
+
 .wp-block-code{
 	background-color: #21252B;
 	padding: 16px !important;
 }
 
 .bg-stuff{
-	background-color: white;
-	border: 1px solid black;
-	border-radius: 8px;
+	background-color: white !important;
+	border: 1px solid black !important;
+	border-radius: 8px !important;
 }
 
 .display-name, .ab-label, .read.bg-code >p,.read.bg-code >span{color:white !important;}
@@ -87,3 +93,156 @@ strong, em, .comment-reply-title, .tags, .widget_calendar tbody td{
 	color: black !important;
 }
 
+.left-sidebar{
+  border-right: none !important;
+}
+
+/* Profil card */
+
+.flip-card {
+  margin-top: 64px !important;
+  perspective: 1000px;
+  min-width: 300px !important;
+  max-width: 300px !important;
+   width: 300px !important;
+  height: 540px !important;
+  min-height:540px !important;
+  max-height:540px !important;
+    background-color: white !important;
+}
+
+.flip-card-front, .flip-card-back {
+  background-color: white !important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.card-profil {
+  min-width: 300px !important;
+  max-width: 300px !important;
+  width: 300px !important;
+  margin: auto !important;
+  text-align: center !important;
+  font-family: arial !important;
+  height: 540px !important;
+  min-height:540px !important;
+  max-height:540px !important;
+  border: 1px solid black !important;
+}
+
+.card-img{
+  width:100% !important;
+}
+
+.card-name{
+  font-family: 'Fira Mono', monospace !important;
+  font-size: 1.6em !important;
+  margin: 0.4em !important;
+  color: #000 !important;
+  line-height: 1.2em;
+}
+
+.card-title {
+  font-size: 16px !important;
+  font-family: 'Fira Mono', monospace !important;
+}
+
+.card-link {
+  text-decoration: none !important;
+  font-size: 24px !important;
+  color: black !important;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+  transition: 0.8s !important;
+}
+.card-link-section {
+  margin: 24px 0 !important;
+    text-align: center !important;
+}
+
+.card-status{
+    color: #dd3333 !important;
+}
+
+.card-button {
+  border: none !important;
+  text-decoration: none !important;
+  outline: 0 !important;
+  display: inline-block !important;
+  padding: 8px !important;
+  color: white !important;
+  background-color: #000 !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  width: 95% !important;
+  font-size: 16px !important;
+  transition: 0.8s !important;
+  margin-bottom:0 !important;
+}
+.card-button a{
+  color: white !important;
+}
+
+.card-button:hover {
+background-color: #dd3333 !important;
+color: white !important;
+border:1px solid black;
+}
+
+.card-button a:hover {
+color: white !important;
+}
+
+.card-link:hover {
+color: #dd3333 !important;
+}
+
+.flip-card-back {
+  background-color: #FFF;
+  color: #000;
+  transform: rotateY(180deg);
+}
+
+.card-about{
+  max-width: 300px !important;
+  margin: auto !important;
+  font-family: arial !important;
+  border: 1px solid black !important;
+}
+
+.card-about-title{
+font-family: 'Fira Mono', monospace !important;
+padding-left: 16px;
+padding-top: 16px;
+font-weight: bold;
+}
+
+.card-about-content{
+   padding-left: 16px;
+   padding-right: 16px;
+   height: 380px !important;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-stack{
+  font-family: 'Fira Mono', monospace !important;
+  font-weight: bold !important;
+}
