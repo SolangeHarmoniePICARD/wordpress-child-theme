@@ -97,6 +97,11 @@ strong, em, .comment-reply-title, .tags, .widget_calendar tbody td{
   border-right: none !important;
 }
 
+#content article:hover{
+  box-shadow: none !important;
+}
+
+
 /* Profil card */
 
 .flip-card {
