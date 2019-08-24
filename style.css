@@ -101,6 +101,16 @@ strong, em, .comment-reply-title, .tags, .widget_calendar tbody td{
   box-shadow: none !important;
 }
 
+.navigation{background-color: white !important;}
+
+.nav-previous, .nav-next{
+	width: 100% !important;
+}
+
+#content article.navigation {
+    height: 32px !important;
+}
+
 
 /* Profil card */
 
